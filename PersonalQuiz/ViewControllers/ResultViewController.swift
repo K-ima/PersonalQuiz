@@ -25,7 +25,7 @@ final class ResultViewController: UIViewController {
     }
     
     func identifyAnimalUser() {
-        guard var answers = answersChosen else {
+        guard let answers = answersChosen else {
             return
         }
         
